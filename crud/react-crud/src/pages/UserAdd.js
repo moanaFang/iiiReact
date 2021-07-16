@@ -76,7 +76,7 @@ function UserAdd(props) {
     // 要等驗証過，再設定資料(簡單的直接設定)
 
     //直接在一段x秒關掉指示器
-    setTimeout(() => {
+    setTimeout(() => {d
       setDataLoading(false)
       alert('儲存完成')
       props.history.push('/')
